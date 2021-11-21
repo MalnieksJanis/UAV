@@ -1,0 +1,44 @@
+html{
+    background-color: rgb(231,230,230);
+}
+body{
+    background-color: rgb(231,230,230)!important;
+}
+iframe {
+    width: 100%;
+}
+footer {
+    background-color: rgb(165,165,165);
+    bottom: 0;
+    height: 30px;
+}
+nav{
+    background-color: rgb(165,165,165);
+    
+}
+/* button, .go{
+    background-color: rgb( 68,114,196)!important;
+} */
+
+nav link{
+    transition: all .2s ease-in-out;
+}
+nav link :hover{
+    font-size: 1.5rem;
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+ .row{
+     margin-right: 0px!important;
+ }
+ .container {
+     padding-right: 15px;
+     padding-left: 15px;
+ }
